@@ -1,0 +1,85 @@
+{
+  "category": "moyen_age",
+  "insults": [
+    {
+      "name": "Couard",
+      "definition": "lâche"
+    },
+    {
+      "name": "Acouardi",
+      "definition": "rendu lâche"
+    },
+    {
+      "name": "Félon",
+      "definition": "traître"
+    },
+    {
+      "name": "Béjaune",
+      "definition": "inexpérimenté"
+    },
+    {
+      "name": "Ladre",
+      "definition": "avare"
+    },
+    {
+      "name": "Arlot",
+      "definition": "vagabond"
+    },
+    {
+      "name": "Foimenteor",
+      "definition": "menteur"
+    },
+    {
+      "name": "Matagot",
+      "definition": "inquiétant"
+    },
+    {
+      "name": "Chiabrena",
+      "definition": "insulte très violente"
+    },
+    {
+      "name": "Forban",
+      "definition": "hors-la-loi"
+    },
+    {
+      "name": "Vil serf",
+      "definition": "sans honneur"
+    },
+    {
+      "name": "Mange-serment",
+      "definition": "traître"
+    },
+    {
+      "name": "Ribaud",
+      "definition": "débauché"
+    },
+    {
+      "name": "Gueux",
+      "definition": "misérable"
+    },
+    {
+      "name": "Brise-loyauté",
+      "definition": "traître"
+    },
+    {
+      "name": "Crache-serment",
+      "definition": "parjure"
+    },
+    {
+      "name": "Sans-fief",
+      "definition": "sans valeur"
+    },
+    {
+      "name": "Ombre de chevalier",
+      "definition": "lâche"
+    },
+    {
+      "name": "Déshonneur vivant",
+      "definition": "honte"
+    },
+    {
+      "name": "Ver de tourmente",
+      "definition": "nuisible"
+    }
+  ]
+}
