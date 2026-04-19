@@ -1,0 +1,89 @@
+{
+  "category": "intelligence",
+  "insults": [
+    {
+      "name": "Ignare",
+      "definition": "sans culture"
+    },
+    {
+      "name": "Béotien",
+      "definition": "inculte"
+    },
+    {
+      "name": "Jobard",
+      "definition": "crédule"
+    },
+    {
+      "name": "Gogo",
+      "definition": "manipulable"
+    },
+    {
+      "name": "Gribouille",
+      "definition": "stupide"
+    },
+    {
+      "name": "Lanterne",
+      "definition": "lent"
+    },
+    {
+      "name": "Lourdaud",
+      "definition": "maladroit"
+    },
+    {
+      "name": "Enclume",
+      "definition": "incompréhensible"
+    },
+    {
+      "name": "Singe savant",
+      "definition": "imitation"
+    },
+    {
+      "name": "Tête de linotte",
+      "definition": "étourdi"
+    },
+    {
+      "name": "Petit esprit",
+      "definition": "étroit"
+    },
+    {
+      "name": "Presse-purée intellectuel",
+      "definition": "simpliste"
+    },
+    {
+      "name": "Vide absolu",
+      "definition": "sans réflexion"
+    },
+    {
+      "name": "Cerveau gelé",
+      "definition": "lent"
+    },
+    {
+      "name": "Pensée en carton",
+      "definition": "fragile"
+    },
+    {
+      "name": "Logique absente",
+      "definition": "incohérent"
+    },
+    {
+      "name": "Neurone en grève",
+      "definition": "inactif"
+    },
+    {
+      "name": "Idée en vacances",
+      "definition": "absent"
+    },
+    {
+      "name": "Analyse cassée",
+      "definition": "inutile"
+    },
+    {
+      "name": "Raisonnement en panne",
+      "definition": "bloqué"
+    },
+    {
+      "name": "Compréhension tamponnée",
+      "definition": "lent"
+    }
+  ]
+}
