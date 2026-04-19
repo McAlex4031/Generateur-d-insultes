@@ -1,0 +1,129 @@
+{
+  "category": "tech",
+  "insults": [
+    {
+      "name": "Analphabète numérique",
+      "definition": "personne incapable d’utiliser les outils numériques"
+    },
+    {
+      "name": "Bot humain",
+      "definition": "personne qui répète sans réfléchir"
+    },
+    {
+      "name": "Influenceur du vide",
+      "definition": "personne qui crée du contenu sans valeur"
+    },
+    {
+      "name": "Clavier-guerrier",
+      "definition": "personne agressive uniquement en ligne"
+    },
+    {
+      "name": "PNJ",
+      "definition": "personne sans personnalité, comportement automatique"
+    },
+    {
+      "name": "Algorithme défaillant",
+      "definition": "personne incohérente ou illogique"
+    },
+    {
+      "name": "Data-pollueur",
+      "definition": "personne qui produit du contenu inutile en masse"
+    },
+    {
+      "name": "Shitposteur",
+      "definition": "personne publiant du contenu sans intérêt"
+    },
+    {
+      "name": "Numéropitèque",
+      "definition": "personne dépassée technologiquement"
+    },
+    {
+      "name": "Vide-bulbe",
+      "definition": "personne sans réflexion apparente"
+    },
+    {
+      "name": "Erreur système ambulante",
+      "definition": "personne très incohérente"
+    },
+    {
+      "name": "CPU en veille",
+      "definition": "personne lente à comprendre"
+    },
+    {
+      "name": "Script sans fonction",
+      "definition": "personne inefficace"
+    },
+    {
+      "name": "Pixel hors écran",
+      "definition": "personne inutile dans un contexte"
+    },
+    {
+      "name": "Variable non définie",
+      "definition": "personne imprévisible"
+    },
+    {
+      "name": "Crash test humain",
+      "definition": "personne instable"
+    },
+    {
+      "name": "Wi-Fi instable",
+      "definition": "personne peu fiable"
+    },
+    {
+      "name": "Bug critique social",
+      "definition": "personne problématique dans un groupe"
+    },
+    {
+      "name": "Kernel instable",
+      "definition": "personne désorganisée mentalement"
+    },
+    {
+      "name": "Render échoué",
+      "definition": "personne incapable de produire correctement"
+    },
+    {
+      "name": "Packet perdu",
+      "definition": "personne désorientée"
+    },
+    {
+      "name": "Cache vide",
+      "definition": "personne oublieuse"
+    },
+    {
+      "name": "Cloud sans stockage",
+      "definition": "personne sans mémoire ou contenu"
+    },
+    {
+      "name": "Plugin inutile",
+      "definition": "personne sans utilité"
+    },
+    {
+      "name": "Debug humain",
+      "definition": "personne pleine de défauts"
+    },
+    {
+      "name": "Fichier corrompu",
+      "definition": "personne incohérente"
+    },
+    {
+      "name": "Mode démo humain",
+      "definition": "personne superficielle"
+    },
+    {
+      "name": "Firewall absent",
+      "definition": "personne sans filtre ou contrôle"
+    },
+    {
+      "name": "Update cassée",
+      "definition": "personne en dégradation"
+    },
+    {
+      "name": "Signal faible",
+      "definition": "personne difficile à comprendre"
+    },
+    {
+      "name": "Thread mort",
+      "definition": "personne inactive ou inutile"
+    }
+  ]
+}
