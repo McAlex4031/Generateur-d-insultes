@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INSULT ENGINE — Encyclopédie Lexicale</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-symbol">⚔</span>
+      <span class="logo-text">INSULT ENGINE</span>
+    </div>
+    <div class="nav-links">
+      <button class="nav-btn active" data-view="generator">Générateur</button>
+      <button class="nav-btn" data-view="list">Encyclopédie</button>
+      <button class="nav-btn" data-view="lootbox">Lootbox</button>
+    </div>
+    <div class="nav-xp">
+      <span class="xp-label">NIV.<span id="nav-level">0</span></span>
+      <div class="xp-bar-mini">
+        <div class="xp-fill-mini" id="xp-fill-mini"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- VIEWS CONTAINER -->
+  <main class="views-container">
+
+    <!-- ══════════════════════════════════════
+         VIEW 1 : GENERATOR
+    ══════════════════════════════════════ -->
+    <section class="view active" id="view-generator">
+      <div class="gen-header">
+        <h1 class="gen-title">GÉNÉRATEUR<br><em>D'INSULTES RAFFINÉES</em></h1>
+        <p class="gen-subtitle">Vocabulaire, humour lexical & élégance verbale</p>
+      </div>
+
+      <div class="gen-controls">
+        <button class="btn-primary" id="btn-random">
+          <span class="btn-icon">🎲</span>
+          <span>INSULTE ALÉATOIRE</span>
+        </button>
+        <button class="btn-secondary" id="btn-combo">
+          <span class="btn-icon">⚡</span>
+          <span>COMBO SYSTEM</span>
+        </button>
+        <div class="situation-group">
+          <input type="text" id="situation-input" placeholder="Décrivez la situation... (ex: collègue lent, bug au travail)" />
+          <button class="btn-tertiary" id="btn-situation">
+            <span class="btn-icon">🎯</span>
+            <span>CIBLER</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- RESULT CARD -->
+      <div class="result-wrapper" id="result-wrapper">
+        <div class="result-card" id="result-card">
+          <div class="result-type" id="result-type">INSULTE ALÉATOIRE</div>
+          <div class="result-insult" id="result-insult">—</div>
+          <div class="result-def" id="result-def">Cliquez sur un bouton pour révéler une insulte d'anthologie</div>
+          <div class="result-theme" id="result-theme"></div>
+          <div class="result-actions">
+            <button class="btn-save" id="btn-save-result" style="display:none">💾 Ajouter à la collection</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMBO DISPLAY -->
+      <div class="combo-wrapper" id="combo-wrapper" style="display:none">
+        <div class="combo-label">FUSION LEXICALE</div>
+        <div class="combo-parts">
+          <div class="combo-part" id="combo-a"></div>
+          <div class="combo-plus">✕</div>
+          <div class="combo-part" id="combo-b"></div>
+        </div>
+        <div class="combo-arrow">▼</div>
+        <div class="combo-result-card">
+          <div class="combo-result-text" id="combo-result-text"></div>
+          <div class="combo-result-def" id="combo-result-def"></div>
+          <button class="btn-save" id="btn-save-combo">💾 Ajouter à la collection</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         VIEW 2 : LIST
+    ══════════════════════════════════════ -->
+    <section class="view" id="view-list">
+      <div class="list-header">
+        <h2 class="list-title">ENCYCLOPÉDIE</h2>
+        <p class="list-count"><span id="list-count">0</span> insultes répertoriées</p>
+      </div>
+
+      <div class="list-controls">
+        <input type="text" id="search-input" placeholder="🔍 Rechercher une insulte..." class="search-bar" />
+        <div class="filter-row">
+          <select id="theme-filter" class="filter-select">
+            <option value="">Tous les thèmes</option>
+            <option value="enfantin">🧸 Enfantin</option>
+            <option value="médiéval">⚔️ Médiéval</option>
+            <option value="renaissance">🎭 Renaissance</option>
+            <option value="littéraire">📚 Littéraire</option>
+            <option value="intelligence">🧠 Intelligence</option>
+            <option value="inutile">😴 Inutile</option>
+            <option value="hypocrisie">🐍 Hypocrisie</option>
+            <option value="relou">😤 Relou</option>
+            <option value="ridicule">🎭 Ridicule</option>
+            <option value="sale">🧹 Sale</option>
+            <option value="tech">💻 Tech</option>
+            <option value="punchline">⚡ Punchline</option>
+          </select>
+          <button class="sort-btn" id="sort-btn" data-dir="asc">A→Z</button>
+        </div>
+      </div>
+
+      <div class="list-grid" id="list-grid"></div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         VIEW 3 : LOOTBOX
+    ══════════════════════════════════════ -->
+    <section class="view" id="view-lootbox">
+      <div class="lootbox-header">
+        <h2 class="lootbox-title">LOOTBOX</h2>
+        <p class="lootbox-subtitle">Ouvrez des coffres, collectionnez des raretés</p>
+      </div>
+
+      <!-- XP + LEVEL -->
+      <div class="xp-panel">
+        <div class="xp-info">
+          <span class="xp-level-badge" id="xp-level">0</span>
+          <div class="xp-details">
+            <span class="xp-text"><span id="xp-current">0</span> XP / <span id="xp-next">10</span> XP</span>
+            <div class="xp-bar">
+              <div class="xp-fill" id="xp-fill"></div>
+            </div>
+          </div>
+        </div>
+        <div class="lootbox-counter">
+          <span id="lootbox-remaining">5</span> / 5 restantes aujourd'hui
+        </div>
+      </div>
+
+      <!-- LOOTBOX SCENE -->
+      <div class="lootbox-scene">
+        <div class="lootbox-particles" id="particles"></div>
+        <div class="lootbox-box" id="lootbox-box">
+          <div class="box-glow"></div>
+          <div class="box-body">
+            <div class="box-lid"></div>
+            <div class="box-base">
+              <span class="box-icon">🎁</span>
+            </div>
+          </div>
+        </div>
+        <div class="lootbox-reward" id="lootbox-reward" style="display:none">
+          <div class="reward-rarity" id="reward-rarity"></div>
+          <div class="reward-insult" id="reward-insult"></div>
+          <div class="reward-def" id="reward-def"></div>
+          <div class="reward-theme" id="reward-theme"></div>
+        </div>
+      </div>
+
+      <div class="lootbox-actions">
+        <button class="btn-lootbox" id="btn-open-lootbox">OUVRIR LA LOOTBOX</button>
+        <p class="lootbox-hint" id="lootbox-hint">Cliquez pour révéler une insulte légendaire</p>
+      </div>
+
+      <!-- COLLECTION -->
+      <div class="collection-section">
+        <h3 class="collection-title">MA COLLECTION <span class="collection-count" id="collection-count">0</span></h3>
+        <div class="collection-grid" id="collection-grid">
+          <p class="collection-empty">Ouvrez des lootboxes pour commencer votre collection...</p>
+        </div>
+      </div>
+
+      <!-- ACHIEVEMENTS -->
+      <div class="achievements-section">
+        <h3 class="achievements-title">SUCCÈS</h3>
+        <div class="achievements-grid" id="achievements-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- NOTIFICATION TOAST -->
+  <div class="toast" id="toast"></div>
+
+  <!-- ACHIEVEMENT POPUP -->
+  <div class="achievement-popup" id="achievement-popup" style="display:none">
+    <div class="ach-icon" id="ach-icon"></div>
+    <div class="ach-text">
+      <div class="ach-title" id="ach-title"></div>
+      <div class="ach-desc" id="ach-desc"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
