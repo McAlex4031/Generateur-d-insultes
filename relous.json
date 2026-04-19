@@ -1,0 +1,85 @@
+{
+  "category": "relous",
+  "insults": [
+    {
+      "name": "Aboyeur",
+      "definition": "bruyant inutilement"
+    },
+    {
+      "name": "Bavard de cabaret",
+      "definition": "parle trop sans intérêt"
+    },
+    {
+      "name": "Chicanier",
+      "definition": "cherche constamment des conflits"
+    },
+    {
+      "name": "Casse-noisettes",
+      "definition": "pénible et irritant"
+    },
+    {
+      "name": "Fouinard",
+      "definition": "indiscret, fouille partout"
+    },
+    {
+      "name": "Rabâcheur",
+      "definition": "répète toujours les mêmes choses"
+    },
+    {
+      "name": "Vampire de conversation",
+      "definition": "monopolise la discussion"
+    },
+    {
+      "name": "Faiseur d’embarras",
+      "definition": "crée des situations gênantes"
+    },
+    {
+      "name": "Convive importun",
+      "definition": "présence gênante"
+    },
+    {
+      "name": "Interrupteur humain",
+      "definition": "coupe constamment la parole"
+    },
+    {
+      "name": "Question sans fin",
+      "definition": "pose trop de questions inutiles"
+    },
+    {
+      "name": "Machine à bruit",
+      "definition": "fait du bruit sans raison"
+    },
+    {
+      "name": "Écho fatigant",
+      "definition": "répète et fatigue les autres"
+    },
+    {
+      "name": "Parleur infini",
+      "definition": "ne s’arrête jamais de parler"
+    },
+    {
+      "name": "Interjection permanente",
+      "definition": "interrompt constamment"
+    },
+    {
+      "name": "Perturbateur constant",
+      "definition": "dérange en permanence"
+    },
+    {
+      "name": "Répétition incarnée",
+      "definition": "répète tout en boucle"
+    },
+    {
+      "name": "Bruit de fond humain",
+      "definition": "présence inutile et gênante"
+    },
+    {
+      "name": "Discussion sans fin",
+      "definition": "allonge inutilement les échanges"
+    },
+    {
+      "name": "Interruption chronique",
+      "definition": "interrompt tout le temps"
+    }
+  ]
+}
