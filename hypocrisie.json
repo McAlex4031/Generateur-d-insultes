@@ -1,0 +1,85 @@
+{
+  "category": "hypocrisie",
+  "insults": [
+    {
+      "name": "Traître",
+      "definition": "déloyal"
+    },
+    {
+      "name": "Infâme",
+      "definition": "répugnant moralement"
+    },
+    {
+      "name": "Matamore",
+      "definition": "faux courageux, fanfaron"
+    },
+    {
+      "name": "Mercanti",
+      "definition": "malhonnête"
+    },
+    {
+      "name": "Papelard",
+      "definition": "hypocrite religieux"
+    },
+    {
+      "name": "Parasite de l’esprit",
+      "definition": "vole les idées des autres"
+    },
+    {
+      "name": "Parvenu",
+      "definition": "sans classe, prétentieux"
+    },
+    {
+      "name": "Renégat",
+      "definition": "traître à son camp"
+    },
+    {
+      "name": "Sycophante",
+      "definition": "dénonciateur hypocrite"
+    },
+    {
+      "name": "Fourbe de comédie",
+      "definition": "hypocrite théâtral"
+    },
+    {
+      "name": "Double visage",
+      "definition": "faux, change selon les situations"
+    },
+    {
+      "name": "Masque creux",
+      "definition": "hypocrisie vide"
+    },
+    {
+      "name": "Langue de miel",
+      "definition": "parle gentiment mais manipulateur"
+    },
+    {
+      "name": "Cœur de papier",
+      "definition": "sans sincérité"
+    },
+    {
+      "name": "Serpent en costume",
+      "definition": "manipulateur dissimulé"
+    },
+    {
+      "name": "Poison social",
+      "definition": "toxique pour les relations"
+    },
+    {
+      "name": "Charmeur vide",
+      "definition": "séduisant mais faux"
+    },
+    {
+      "name": "Promesse cassée",
+      "definition": "menteur"
+    },
+    {
+      "name": "Sourire faux",
+      "definition": "hypocrisie visible"
+    },
+    {
+      "name": "Discours creux",
+      "definition": "paroles sans sincérité"
+    }
+  ]
+}
