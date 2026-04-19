@@ -1,0 +1,97 @@
+{
+  "category": "renaissance_xviie",
+  "insults": [
+    {
+      "name": "Bélître",
+      "definition": "mendiant"
+    },
+    {
+      "name": "Cuistre",
+      "definition": "pédant"
+    },
+    {
+      "name": "Faquin",
+      "definition": "méprisable"
+    },
+    {
+      "name": "Nodocéphale",
+      "definition": "idiot"
+    },
+    {
+      "name": "Sycophante",
+      "definition": "balance, dénonciateur"
+    },
+    {
+      "name": "Tartuffe",
+      "definition": "hypocrite"
+    },
+    {
+      "name": "Catin",
+      "definition": "insulte envers une femme de mauvaise réputation"
+    },
+    {
+      "name": "Fesse-mathieu",
+      "definition": "avare"
+    },
+    {
+      "name": "Salope",
+      "definition": "insulte très forte historique"
+    },
+    {
+      "name": "Sacripant",
+      "definition": "vaurien"
+    },
+    {
+      "name": "Flagonneur",
+      "definition": "flatteur servile"
+    },
+    {
+      "name": "Philistin",
+      "definition": "ennemi de la culture, esprit borné"
+    },
+    {
+      "name": "Barbon",
+      "definition": "vieux moralisateur"
+    },
+    {
+      "name": "Pisse-froid",
+      "definition": "rabat-joie"
+    },
+    {
+      "name": "Rustre",
+      "definition": "grossier"
+    },
+    {
+      "name": "Maraud",
+      "definition": "voleur, voyou"
+    },
+    {
+      "name": "Vil gredin",
+      "definition": "mauvais sujet"
+    },
+    {
+      "name": "Sot pédant",
+      "definition": "idiot prétentieux"
+    },
+    {
+      "name": "Esprit de marmite",
+      "definition": "lent"
+    },
+    {
+      "name": "Visage de parchemin sec",
+      "definition": "triste"
+    },
+    {
+      "name": "Bavard de comptoir",
+      "definition": "inutile"
+    },
+    {
+      "name": "Cuveau vide",
+      "definition": "sans profondeur"
+    },
+    {
+      "name": "Singe savant de foire",
+      "definition": "imitateur bête"
+    }
+  ]
+}
