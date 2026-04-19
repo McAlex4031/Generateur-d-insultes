@@ -1,0 +1,85 @@
+{
+  "category": "punchlines",
+  "insults": [
+    {
+      "name": "Cerveau en mode avion",
+      "definition": "personne déconnectée mentalement"
+    },
+    {
+      "name": "Erreur système",
+      "definition": "personne complètement incohérente"
+    },
+    {
+      "name": "Bug humain",
+      "definition": "personne pleine de dysfonctionnements"
+    },
+    {
+      "name": "Intelligence flaque",
+      "definition": "très faible capacité de réflexion"
+    },
+    {
+      "name": "Fichier sans extension",
+      "definition": "personne sans utilité définie"
+    },
+    {
+      "name": "Avis sans serveur",
+      "definition": "opinion sans base solide"
+    },
+    {
+      "name": "Mise à jour inutile",
+      "definition": "changement sans amélioration"
+    },
+    {
+      "name": "Logique hors ligne",
+      "definition": "raisonnement absent"
+    },
+    {
+      "name": "Connexion mentale 56k",
+      "definition": "pensée très lente"
+    },
+    {
+      "name": "Pixel inutile",
+      "definition": "personne insignifiante"
+    },
+    {
+      "name": "Système non chargé",
+      "definition": "personne incapable de fonctionner correctement"
+    },
+    {
+      "name": "Pensée absente",
+      "definition": "absence totale de réflexion"
+    },
+    {
+      "name": "Signal perdu",
+      "definition": "personne confuse ou déconnectée"
+    },
+    {
+      "name": "Rendu raté",
+      "definition": "résultat complètement échoué"
+    },
+    {
+      "name": "Interface cassée",
+      "definition": "communication inefficace"
+    },
+    {
+      "name": "Upload échoué",
+      "definition": "tentative complètement ratée"
+    },
+    {
+      "name": "Esprit déconnecté",
+      "definition": "personne absente mentalement"
+    },
+    {
+      "name": "Lecture impossible",
+      "definition": "personne incompréhensible"
+    },
+    {
+      "name": "Réponse inexistante",
+      "definition": "absence de réaction logique"
+    },
+    {
+      "name": "Accès refusé",
+      "definition": "personne fermée ou inaccessible"
+    }
+  ]
+}
