@@ -1,0 +1,85 @@
+{
+  "category": "inutiles_faibles",
+  "insults": [
+    {
+      "name": "Flasque",
+      "definition": "sans énergie"
+    },
+    {
+      "name": "Mou de l’échine",
+      "definition": "sans courage"
+    },
+    {
+      "name": "Lâche-pied",
+      "definition": "abandonniste"
+    },
+    {
+      "name": "Traîne-savate",
+      "definition": "paresseux"
+    },
+    {
+      "name": "Vaurien",
+      "definition": "inutile"
+    },
+    {
+      "name": "Quidam",
+      "definition": "insignifiant"
+    },
+    {
+      "name": "Saute-ruisseau",
+      "definition": "inutile"
+    },
+    {
+      "name": "Ombre de lui-même",
+      "definition": "vide"
+    },
+    {
+      "name": "Pâte feuilletée",
+      "definition": "fragile"
+    },
+    {
+      "name": "Pauvre hère",
+      "definition": "misérable"
+    },
+    {
+      "name": "Sable mouvant humain",
+      "definition": "instable"
+    },
+    {
+      "name": "Coquille vide",
+      "definition": "inutile"
+    },
+    {
+      "name": "Souffle absent",
+      "definition": "sans énergie"
+    },
+    {
+      "name": "Machine éteinte",
+      "definition": "passif"
+    },
+    {
+      "name": "Batterie 0%",
+      "definition": "épuisé"
+    },
+    {
+      "name": "Chaise décorative",
+      "definition": "inutile"
+    },
+    {
+      "name": "Statue vivante",
+      "definition": "figé"
+    },
+    {
+      "name": "Nuage sans pluie",
+      "definition": "inutile"
+    },
+    {
+      "name": "Papillon sans ailes",
+      "definition": "incapable"
+    },
+    {
+      "name": "Objet perdu",
+      "definition": "inutile"
+    }
+  ]
+}
