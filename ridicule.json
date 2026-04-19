@@ -1,0 +1,85 @@
+{
+  "category": "ridicule",
+  "insults": [
+    {
+      "name": "Bouffon",
+      "definition": "personne ridicule ou clownesque"
+    },
+    {
+      "name": "Zigoto",
+      "definition": "personne bizarre et peu sérieuse"
+    },
+    {
+      "name": "Saltimbanque",
+      "definition": "personne peu crédible, agit de façon théâtrale"
+    },
+    {
+      "name": "Branquignole",
+      "definition": "personne incapable ou maladroite"
+    },
+    {
+      "name": "Escogriffe",
+      "definition": "personne grande, maladroite et ridicule"
+    },
+    {
+      "name": "Pitre de cour",
+      "definition": "personne qui cherche à faire rire maladroitement"
+    },
+    {
+      "name": "Polichinelle",
+      "definition": "personnage grotesque et bruyant"
+    },
+    {
+      "name": "Faraud",
+      "definition": "personne prétentieuse et ridicule"
+    },
+    {
+      "name": "Damelot",
+      "definition": "faux noble, ridicule dans ses manières"
+    },
+    {
+      "name": "Pimpesouée",
+      "definition": "personne affectée et ridicule"
+    },
+    {
+      "name": "Raté magnifique",
+      "definition": "échec visible mais assumé"
+    },
+    {
+      "name": "Rocambole de pacotille",
+      "definition": "personne ou chose spectaculaire mais sans valeur"
+    },
+    {
+      "name": "Marionnette cassée",
+      "definition": "personne sans contrôle ni élégance"
+    },
+    {
+      "name": "Acteur raté",
+      "definition": "personne qui joue mal son rôle social"
+    },
+    {
+      "name": "Clown triste",
+      "definition": "personne ridicule et pathétique"
+    },
+    {
+      "name": "Spectacle vide",
+      "definition": "personne sans intérêt malgré les apparences"
+    },
+    {
+      "name": "Figurant perdu",
+      "definition": "personne insignifiante dans un groupe"
+    },
+    {
+      "name": "Personnage glitché",
+      "definition": "comportement incohérent ou étrange"
+    },
+    {
+      "name": "Masque mal porté",
+      "definition": "fausse image sociale mal assumée"
+    },
+    {
+      "name": "Comédie ratée",
+      "definition": "tentative ridicule d’être drôle ou impressionnant"
+    }
+  ]
+}
