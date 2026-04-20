@@ -1,0 +1,89 @@
+{
+  "category": "xixe_litterature",
+  "insults": [
+    {
+      "name": "Paltoquet",
+      "definition": "prétentieux insignifiant"
+    },
+    {
+      "name": "Pignouf",
+      "definition": "grossier"
+    },
+    {
+      "name": "Orchidoclaste",
+      "definition": "casse-couilles, importun"
+    },
+    {
+      "name": "Nicodème",
+      "definition": "naïf, simplet"
+    },
+    {
+      "name": "Patte-pelu",
+      "definition": "manipulateur doucereux"
+    },
+    {
+      "name": "Afistoleur",
+      "definition": "menteur, conteur de sornettes"
+    },
+    {
+      "name": "Coquebert",
+      "definition": "niais, idiot un peu ridicule"
+    },
+    {
+      "name": "Coquillard",
+      "definition": "escroc, filou"
+    },
+    {
+      "name": "Cornac de mouches",
+      "definition": "personne inutile qui s’agite pour rien"
+    },
+    {
+      "name": "Cordelier de cuisine",
+      "definition": "faux savant, prétentieux inutile"
+    },
+    {
+      "name": "Gnafron",
+      "definition": "ivrogne"
+    },
+    {
+      "name": "Jean-foutre",
+      "definition": "personne sans valeur, inutile"
+    },
+    {
+      "name": "Galapiat",
+      "definition": "vaurien, petit délinquant"
+    },
+    {
+      "name": "Escogriffe",
+      "definition": "grand, maladroit et ridicule"
+    },
+    {
+      "name": "Bougre d’âne",
+      "definition": "idiot"
+    },
+    {
+      "name": "Fifrelin",
+      "definition": "insignifiant"
+    },
+    {
+      "name": "Bourricot savant",
+      "definition": "prétentieux et bête"
+    },
+    {
+      "name": "Claque-dents",
+      "definition": "misérable"
+    },
+    {
+      "name": "Tromblon vide",
+      "definition": "inutile"
+    },
+    {
+      "name": "Moulin à paroles",
+      "definition": "bavard inutile"
+    },
+    {
+      "name": "Récit sans intrigue",
+      "definition": "ennuyeux, vide"
+    }
+  ]
+}
