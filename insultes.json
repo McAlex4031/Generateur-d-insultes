@@ -1,0 +1,321 @@
+{
+  "version": "2.0",
+  "insults": [
+    {
+      "text": "Il a un tel vide intérieur que s'il avalait un moustique, il aurait plus de cervelle dans le ventre que dans la tête.",
+      "definition": "Vide intellectuel extrême.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "On sent qu'il a été bercé trop près du mur.",
+      "definition": "Allusion à un manque de développement intellectuel.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Il n'est pas bête, il a juste une immense marge de progression avant d'atteindre le zéro absolu.",
+      "definition": "Stupidité très avancée.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "Sa seule contribution à l'humanité est d'occuper un volume d'espace qui, autrement, serait inutilement vide.",
+      "definition": "Inutilité totale.",
+      "theme": "inutile"
+    },
+    {
+      "text": "J'envie tous les gens qui ne vous ont pas encore rencontré.",
+      "definition": "Regret sarcastique de la rencontre.",
+      "theme": "littéraire"
+    },
+    {
+      "text": "Il est la preuve vivante que la lumière voyage plus vite que le son : il a l'air brillant jusqu'à ce qu'il l'ouvre.",
+      "definition": "Apparence trompeuse d'intelligence.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Si la bêtise était cotée en bourse, il serait le principal moteur de l'économie mondiale.",
+      "definition": "Stupidité massive.",
+      "theme": "punchline"
+    },
+    {
+      "text": "On ne peut pas lui en vouloir : il fait de son mieux avec le peu que la nature a bien voulu lui concéder.",
+      "definition": "Capacités intellectuelles limitées.",
+      "theme": "hypocrisie"
+    },
+    {
+      "text": "Son arbre généalogique doit être un cercle.",
+      "definition": "Allusion humoristique à une lignée problématique.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Il est le genre de personne à qui on a envie de donner une plante à porter en permanence, juste pour remplacer l'oxygène qu'il gaspille.",
+      "definition": "Inutilité et gaspillage de ressources.",
+      "theme": "ridicule"
+    },
+
+    {
+      "text": "Il a un cerveau tout neuf, il ne s’en est jamais servi.",
+      "definition": "Absence d'utilisation de l'intellect.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "S’il était plus bête, il faudrait l’arroser deux fois par semaine.",
+      "definition": "Stupidité extrême comparée à une plante.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Il est la preuve que l’on peut vivre sans cerveau, mais pas sans culot.",
+      "definition": "Audace malgré absence d’intelligence.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "Son esprit est comme une page blanche : propre, mais désespérément vide.",
+      "definition": "Vide mental.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "Il n’a pas d’idées, il n’a que des lacunes qui se bousculent.",
+      "definition": "Manque total de réflexion.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "C’est un puits de science, mais le seau est resté en haut.",
+      "definition": "Incapacité à accéder au savoir.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "Il réfléchit à la vitesse d’un glacier en pleine ère glaciaire.",
+      "definition": "Extrême lenteur mentale.",
+      "theme": "inutile"
+    },
+    {
+      "text": "La nature lui a donné un cerveau, c’est dommage qu’il ait perdu le mode d’emploi.",
+      "definition": "Incapacité à utiliser son intelligence.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "Il est le seul capable de se perdre dans un couloir sans porte.",
+      "definition": "Absence totale d’orientation logique.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "S’il avait une pensée, elle mourrait de solitude.",
+      "definition": "Absence de réflexion.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "Son quotient intellectuel est à la température de la pièce (et la fenêtre est ouverte).",
+      "definition": "QI extrêmement faible.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "Il a le charisme d’une huître en fin de banquet.",
+      "definition": "Absence de charisme.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Il a été fini à la pisse de chat un jour de pluie.",
+      "definition": "Insulte vulgaire sur l’origine.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "C’est une lumière, certes, mais de frigo : il ne brille que quand on lui ouvre la bouche.",
+      "definition": "Brillance limitée et conditionnelle.",
+      "theme": "ridicule"
+    },
+
+    {
+      "text": "J'aimerais beaucoup vous insulter, mais je crains de ne pas être à la hauteur de votre médiocrité.",
+      "definition": "Mépris élégant.",
+      "theme": "littéraire"
+    },
+    {
+      "text": "Il est aussi utile qu’une fourchette pour manger de la soupe.",
+      "definition": "Inutilité totale.",
+      "theme": "inutile"
+    },
+    {
+      "text": "Tout le monde a le droit d’être moche, mais il abuse du privilège.",
+      "definition": "Critique physique.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "On ne dit pas qu’il est idiot, on dit qu’il est en grève de neurones.",
+      "definition": "Absence de réflexion.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "Il a ce don rare d’apporter de la joie partout... où il s’en va.",
+      "definition": "Présence négative.",
+      "theme": "hypocrisie"
+    },
+    {
+      "text": "C’est le genre de personne qui ferait rater un café soluble.",
+      "definition": "Incapacité à réussir même simple.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "S’il tombait dans la mer, il ne se noierait pas, il flotterait tellement il est creux.",
+      "definition": "Vide intérieur.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Il est comme un nuage : quand il s’en va, la journée devient magnifique.",
+      "definition": "Présence indésirable.",
+      "theme": "littéraire"
+    },
+    {
+      "text": "Sa présence est une excellente raison de rester célibataire.",
+      "definition": "Impact social négatif.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Il a l’élégance d’un accident de tracteur.",
+      "definition": "Absence totale de classe.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "S'il était un épice, il serait de la farine.",
+      "definition": "Absence de saveur.",
+      "theme": "inutile"
+    },
+    {
+      "text": "Il n'est pas méchant, il est juste encombrant pour l'évolution.",
+      "definition": "Frein au progrès.",
+      "theme": "hypocrisie"
+    },
+    {
+      "text": "C’est un génie méconnu, et il fait tout pour le rester.",
+      "definition": "Ironie sur l’absence de talent.",
+      "theme": "intelligence"
+    },
+
+    {
+      "text": "On pourrait loger une famille de bohémiens dans l'écho de votre boîte crânienne.",
+      "definition": "Vide intellectuel immense.",
+      "theme": "renaissance"
+    },
+    {
+      "text": "Votre esprit, Monsieur, est une terre si aride que même le silence s'y sent à l'étroit.",
+      "definition": "Esprit totalement vide.",
+      "theme": "renaissance"
+    },
+    {
+      "text": "Vous possédez ce talent rare de rendre le néant bavard.",
+      "definition": "Parle sans contenu.",
+      "theme": "renaissance"
+    },
+    {
+      "text": "Dieu vous a fait homme, mais votre bêtise vous a fait monument.",
+      "definition": "Stupidité monumentale.",
+      "theme": "renaissance"
+    },
+    {
+      "text": "Si l’ignorance était un fluide, vous seriez l’Océan Pacifique.",
+      "definition": "Ignorance massive.",
+      "theme": "renaissance"
+    },
+    {
+      "text": "Je vous mépriserais bien davantage, mais je crains de ne pas en avoir les moyens.",
+      "definition": "Mépris extrême.",
+      "theme": "renaissance"
+    },
+    {
+      "text": "Votre seule fonction semble être de servir de contre-exemple à la Création.",
+      "definition": "Erreur de la nature.",
+      "theme": "renaissance"
+    },
+
+    {
+      "text": "Quand on mettra les cons en orbite, t’as pas fini de tourner.",
+      "definition": "Insulte populaire.",
+      "theme": "punchline"
+    },
+    {
+      "text": "Les cons, ça ose tout. C’est même à ça qu’on les reconnaît.",
+      "definition": "Citation ironique.",
+      "theme": "punchline"
+    },
+    {
+      "text": "Te fâche pas, mais t'as le cerveau qui a glissé dans les talons.",
+      "definition": "Absence de réflexion.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Il a une tête à faire sauter les plombs d'un couvent.",
+      "definition": "Personne insupportable.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Si la connerie se mesurait, il servirait de mètre étalon.",
+      "definition": "Référence de stupidité.",
+      "theme": "punchline"
+    },
+    {
+      "text": "Écoute, on va pas se mentir, t’es pas une flèche, t’es même plutôt l’arc qui reste sur le carreau.",
+      "definition": "Manque d’intelligence.",
+      "theme": "punchline"
+    },
+    {
+      "text": "Toi, t'as été sevré au vinaigre et fini au cirage.",
+      "definition": "Origine peu flatteuse.",
+      "theme": "ridicule"
+    },
+
+    {
+      "text": "Vous êtes la preuve que l'évolution peut faire marche arrière sans prévenir.",
+      "definition": "Régression humaine.",
+      "theme": "littéraire"
+    },
+    {
+      "text": "Votre conversation a l’intérêt d’un manuel d’utilisation de grille-pain traduit du finnois.",
+      "definition": "Conversation inutile.",
+      "theme": "littéraire"
+    },
+    {
+      "text": "Je ne vous hais point, je vous considère simplement comme une erreur typographique dans le livre de ma vie.",
+      "definition": "Rejet élégant.",
+      "theme": "littéraire"
+    },
+    {
+      "text": "Vous avez cette capacité fascinante à transformer l’intelligence en bruit de fond.",
+      "definition": "Rend la réflexion inutile.",
+      "theme": "littéraire"
+    },
+    {
+      "text": "On sent chez vous une volonté farouche de ne jamais céder à la tentation de la réflexion.",
+      "definition": "Refus de penser.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "S’il existait un impôt sur l’intelligence, vous seriez le premier à toucher des aides d'État.",
+      "definition": "Absence d’intelligence.",
+      "theme": "intelligence"
+    },
+    {
+      "text": "Vous n'êtes pas mal élevé, vous êtes simplement un brouillon d'éducation.",
+      "definition": "Éducation ratée.",
+      "theme": "hypocrisie"
+    },
+
+    {
+      "text": "On vous a donné toutes les cartes à la naissance, mais vous jouez aux dominos.",
+      "definition": "Mauvaise utilisation du potentiel.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Votre mère a dû oublier de vous sortir du four avant que ça ne brûle.",
+      "definition": "Insulte d’origine.",
+      "theme": "ridicule"
+    },
+    {
+      "text": "Vous êtes le résultat d'une nuit de passion entre l'ennui et le vide.",
+      "definition": "Existence inutile.",
+      "theme": "littéraire"
+    },
+    {
+      "text": "On vous a appris à parler, c’est dommage qu’on n'ait pas inclus l'option \"penser\".",
+      "definition": "Absence de réflexion.",
+      "theme": "intelligence"
+    }
+  ]
+}
