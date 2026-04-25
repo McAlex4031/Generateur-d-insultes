@@ -1,227 +1,488 @@
 [
   {
     "text": "abruti",
-    "definition": "Personne jugée peu intelligente ou lente à comprendre.",
-    "theme": "familier"
+    "definition": "Tel un âne portant des œillères, personne aveugle à toute réflexion.",
+    "theme": "familier",
+    "figure": "Métaphore"
   },
   {
     "text": "andouille",
-    "definition": "Personne maladroite ou peu réfléchie (registre léger et humoristique).",
-    "theme": "familier"
+    "definition": "Personne dont la maladresse dépasse l'entendement, véritable chef-d'œuvre d'irréflexion.",
+    "theme": "familier",
+    "figure": "Hyperbole"
   },
   {
     "text": "âne",
-    "definition": "Terme ancien désignant une personne têtue ou peu intelligente.",
-    "theme": "expression"
+    "definition": "Comme la bête de somme, personne têtue refusant tout éclairage de la raison.",
+    "theme": "expression",
+    "figure": "Comparaison"
   },
   {
     "text": "bête",
-    "definition": "Personne manquant de réflexion ou de compréhension.",
-    "theme": "familier"
+    "definition": "Personne dont l'esprit est aussi lisse qu'une page jamais écrite.",
+    "theme": "familier",
+    "figure": "Métaphore"
   },
   {
     "text": "bête comme ses pieds",
-    "definition": "Expression signifiant un manque important d’intelligence.",
-    "theme": "expression"
+    "definition": "Expression soulignant avec ironie que l'intelligence a fui jusqu'aux extrémités.",
+    "theme": "expression",
+    "figure": "Ironie"
   },
   {
     "text": "bête comme un âne",
-    "definition": "Expression pour décrire quelqu’un de très peu intelligent.",
-    "theme": "expression"
+    "definition": "Comparaison populaire : aussi peu inspiré que la bête de trait la plus obtuse.",
+    "theme": "expression",
+    "figure": "Comparaison"
   },
   {
     "text": "bête comme un chou",
-    "definition": "Expression humoristique pour désigner quelqu’un de naïf.",
-    "theme": "expression"
+    "definition": "Image humoristique : aussi naïf qu'un légume ignorant sa propre existence.",
+    "theme": "expression",
+    "figure": "Comparaison"
   },
   {
     "text": "bête comme une oie",
-    "definition": "Expression ancienne pour dire qu’une personne est naïve.",
-    "theme": "expression"
+    "definition": "Comparaison ancienne : naïf à l'image de l'oie qui s'étonne de tout.",
+    "theme": "expression",
+    "figure": "Comparaison"
   },
   {
     "text": "bouffon",
-    "definition": "Personne qui agit de manière ridicule ou comique.",
-    "theme": "comique"
+    "definition": "Tel un pitre de cour sans couronne, personne dont le ridicule est son seul talent.",
+    "theme": "comique",
+    "figure": "Métaphore"
   },
   {
     "text": "boulet",
-    "definition": "Personne qui ralentit ou gêne les autres dans une situation.",
-    "theme": "familier"
+    "definition": "Comme un boulet de canon attaché aux chevilles du groupe : présence qui ralentit tout.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "brêle",
-    "definition": "Personne maladroite ou peu habile.",
-    "theme": "familier"
+    "definition": "Personne dont la maladresse est si totale qu'elle en devient presque artistique.",
+    "theme": "familier",
+    "figure": "Hyperbole"
   },
   {
     "text": "branquignol",
-    "definition": "Personne désorganisée ou peu sérieuse.",
-    "theme": "comique"
+    "definition": "Véritable monument de désorganisation, dont le sérieux est perpétuellement en vacances.",
+    "theme": "comique",
+    "figure": "Métaphore"
   },
   {
     "text": "crétin",
-    "definition": "Personne jugée peu intelligente ou irréfléchie.",
-    "theme": "familier"
+    "definition": "Personne dont la réflexion, si elle a jamais existé, s'est donné congé sine die.",
+    "theme": "familier",
+    "figure": "Ironie"
   },
   {
     "text": "crétin des Alpes",
-    "definition": "Expression exagérée pour désigner quelqu’un de très peu réfléchi.",
-    "theme": "expression"
+    "definition": "Hyperbole populaire : bêtise si vaste qu'elle nécessiterait un massif montagneux pour la contenir.",
+    "theme": "expression",
+    "figure": "Hyperbole"
   },
   {
     "text": "cucurbitacée",
-    "definition": "Terme humoristique pour désigner quelqu’un de naïf ou peu intelligent.",
-    "theme": "comique"
+    "definition": "Terme botanique détourné : tête aussi creuse et ronde qu'une courge automnale.",
+    "theme": "comique",
+    "figure": "Métaphore"
   },
   {
     "text": "ducon",
-    "definition": "Insulte familière désignant une personne stupide.",
-    "theme": "familier"
+    "definition": "Spécimen ordinaire dont la nullité est aussi constante que la rotation de la Terre.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "ducon-la-joie",
-    "definition": "Variante humoristique et exagérée de 'ducon'.",
-    "theme": "comique"
+    "definition": "Variante ironique : si joyeux de sa propre bêtise qu'il en devient touchant.",
+    "theme": "comique",
+    "figure": "Ironie"
   },
   {
     "text": "dugland",
-    "definition": "Terme familier pour désigner quelqu’un de paresseux ou inutile.",
-    "theme": "familier"
+    "definition": "Personne dont la paresse est un art, et l'inutilité une vocation assumée.",
+    "theme": "familier",
+    "figure": "Métaphore"
   },
   {
     "text": "empoté",
-    "definition": "Personne maladroite ou peu efficace.",
-    "theme": "familier"
+    "definition": "Comme une plante en pot trop petit : inefficace, contraint, incapable de s'épanouir.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "espèce de cornichon",
-    "definition": "Expression humoristique pour désigner quelqu’un de naïf.",
-    "theme": "expression"
+    "definition": "Image humoristique : aussi naïf que ce légume mariné qui a perdu toute saveur propre.",
+    "theme": "expression",
+    "figure": "Comparaison"
   },
   {
     "text": "espèce de nouille",
-    "definition": "Expression familière pour dire qu’une personne est maladroite ou lente.",
-    "theme": "expression"
+    "definition": "Comparaison culinaire : aussi mou et sans consistance qu'une pâte trop cuite.",
+    "theme": "expression",
+    "figure": "Comparaison"
   },
   {
     "text": "face de rat",
-    "definition": "Expression imagée pour désigner quelqu’un de désagréable (registre familier).",
-    "theme": "comique"
+    "definition": "Métaphore zoologique pour désigner un visage aussi agréable que celui d'un rongeur grincheux.",
+    "theme": "comique",
+    "figure": "Métaphore"
   },
   {
     "text": "glandeur",
-    "definition": "Personne qui ne travaille pas ou manque d’énergie.",
-    "theme": "familier"
+    "definition": "Personne dont l'énergie est aussi absente que le soleil en décembre.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "imbécile",
-    "definition": "Personne jugée peu intelligente.",
-    "theme": "familier"
+    "definition": "Dont l'intelligence est aussi fragile qu'un château de sable face à la marée.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "incapable",
-    "definition": "Personne qui manque de compétence dans un domaine.",
-    "theme": "familier"
+    "definition": "Personne dont la compétence, si elle avait existé, aurait été une heureuse surprise.",
+    "theme": "familier",
+    "figure": "Ironie"
   },
   {
     "text": "inutile",
-    "definition": "Personne ou chose jugée sans utilité.",
-    "theme": "familier"
+    "definition": "Présence aussi superflue que le cinquième roue d'un carrosse.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "lavette",
-    "definition": "Personne sans caractère ou sans énergie.",
-    "theme": "familier"
+    "definition": "Personne dont le caractère s'est évaporé comme l'eau sur une plaque chaude.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "mauviette",
-    "definition": "Personne faible ou sans courage.",
-    "theme": "familier"
+    "definition": "Si faible que même ses propres ombres la dépassent en consistance.",
+    "theme": "familier",
+    "figure": "Hyperbole"
   },
   {
     "text": "minus",
-    "definition": "Personne insignifiante ou faible.",
-    "theme": "familier"
+    "definition": "Individu aussi insignifiant que la virgule oubliée en fin de phrase.",
+    "theme": "familier",
+    "figure": "Métaphore"
   },
   {
     "text": "misérable",
-    "definition": "Personne ou situation jugée très médiocre.",
-    "theme": "littéraire"
+    "definition": "Tel Javert face à Valjean : prompt à juger ce qu'il est incapable de comprendre.",
+    "theme": "littéraire",
+    "figure": "Métaphore"
   },
   {
     "text": "mollusque",
-    "definition": "Personne très lente ou sans réaction.",
-    "theme": "comique"
+    "definition": "Comme l'huître : fermé, lent, et ne s'ouvrant qu'au prix d'un effort considérable.",
+    "theme": "comique",
+    "figure": "Comparaison"
   },
   {
     "text": "naze",
-    "definition": "Quelque chose ou quelqu’un de nul ou inefficace (familier).",
-    "theme": "familier"
+    "definition": "Aussi inefficace qu'une bougie sous la pluie : présence éteinte avant d'avoir brillé.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "nigaud",
-    "definition": "Personne naïve ou un peu stupide.",
-    "theme": "littéraire"
+    "definition": "Naïf comme l'agneau qui tend la gorge au loup en croyant lui faire la bise.",
+    "theme": "littéraire",
+    "figure": "Comparaison"
   },
   {
     "text": "pauvre type",
-    "definition": "Personne jugée insignifiante ou peu respectée.",
-    "theme": "familier"
+    "definition": "Spécimen si ordinaire que même l'anonymat lui refuse son étreinte.",
+    "theme": "familier",
+    "figure": "Personnification"
   },
   {
     "text": "pignouf",
-    "definition": "Personne mal élevée ou ridicule.",
-    "theme": "familier"
+    "definition": "Mal élevé comme si la politesse était une langue étrangère dont il n'a jamais eu le dictionnaire.",
+    "theme": "familier",
+    "figure": "Métaphore"
   },
   {
     "text": "plouc",
-    "definition": "Personne perçue comme rustique ou peu sophistiquée.",
-    "theme": "familier"
+    "definition": "Aussi dépaysé en société que le sanglier dans un salon de thé.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "raté",
-    "definition": "Personne considérée comme ayant échoué dans ses actions.",
-    "theme": "littéraire"
+    "definition": "Personnage dont l'existence entière ressemble à un brouillon jamais relu ni corrigé.",
+    "theme": "littéraire",
+    "figure": "Métaphore"
   },
   {
     "text": "sac à patates",
-    "definition": "Expression humoristique pour désigner quelqu’un de maladroit.",
-    "theme": "comique"
+    "definition": "Comparaison rustique : autant de grâce et d'élégance qu'un sac de tubercules posé dans un couloir.",
+    "theme": "comique",
+    "figure": "Comparaison"
   },
   {
     "text": "sot",
-    "definition": "Terme ancien pour désigner une personne peu intelligente.",
-    "theme": "littéraire"
+    "definition": "Dont la sottise est si ancienne et si profonde qu'elle en devient presque classique.",
+    "theme": "littéraire",
+    "figure": "Hyperbole"
   },
   {
     "text": "tête de linotte",
-    "definition": "Personne distraite ou oublieuse.",
-    "theme": "expression"
+    "definition": "Mémoire aussi fugace que les chants d'oiseau : tout entre, rien ne reste.",
+    "theme": "expression",
+    "figure": "Comparaison"
   },
   {
     "text": "tocard",
-    "definition": "Personne jugée sans valeur ou incompétente.",
-    "theme": "familier"
+    "definition": "Sans valeur comme le ticket de loterie perdu sous un canapé depuis dix ans.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "triple buse",
-    "definition": "Expression exagérée pour dire qu’une personne est très peu intelligente.",
-    "theme": "expression"
+    "definition": "Hyperbole redoublée : bêtise certifiée, homologuée, et mise au cube pour l'occasion.",
+    "theme": "expression",
+    "figure": "Hyperbole"
   },
   {
     "text": "trouillard",
-    "definition": "Personne peureuse ou manquant de courage.",
-    "theme": "familier"
+    "definition": "Fuit le danger comme l'ombre fuit la lumière : rapidement, naturellement, et sans retour.",
+    "theme": "familier",
+    "figure": "Comparaison"
   },
   {
     "text": "vaurien",
-    "definition": "Personne sans valeur morale ou sociale.",
-    "theme": "littéraire"
+    "definition": "Tel un sol infertile : aucune graine vertueuse n'y a jamais germé.",
+    "theme": "littéraire",
+    "figure": "Métaphore"
   },
   {
     "text": "zigoto",
-    "definition": "Personne au comportement étrange ou comique.",
-    "theme": "comique"
+    "definition": "Personnage si étrange que même le dictionnaire hésite à le cataloguer.",
+    "theme": "comique",
+    "figure": "Hyperbole"
+  },
+  {
+    "text": "benêt",
+    "definition": "Candeur si désarmante qu'elle confond l'innocence avec le vide intersidéral.",
+    "theme": "familier",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "balourd",
+    "definition": "Aussi subtil qu'un rhinocéros dans une porcelainerie : la finesse lui est étrangère.",
+    "theme": "familier",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "simplet",
+    "definition": "Simplicité si absolue qu'elle frôle le génie de l'épurement involontaire.",
+    "theme": "familier",
+    "figure": "Antithèse"
+  },
+  {
+    "text": "niais",
+    "definition": "Naïveté intacte comme un miroir que la réalité n'a jamais osé fissurer.",
+    "theme": "familier",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "niaisard",
+    "definition": "Élevé la niaiserie à un niveau artistique que même ses contempteurs admirent malgré eux.",
+    "theme": "familier",
+    "figure": "Ironie"
+  },
+  {
+    "text": "inepte",
+    "definition": "Dont l'inaptitude est si totale qu'elle en devient une forme de cohérence absolue.",
+    "theme": "familier",
+    "figure": "Antithèse"
+  },
+  {
+    "text": "insensé",
+    "definition": "Raison absente comme la boussole dans une tempête magnétique : nulle part et partout à la fois.",
+    "theme": "familier",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "inconséquent",
+    "definition": "Actions et paroles aussi liées que l'éclair et le tonnerre chez qui n'entend que l'un.",
+    "theme": "familier",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "hurluberlu",
+    "definition": "Personnage dont l'excentricité est la seule ligne directrice d'une vie sans boussole.",
+    "theme": "comique",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "olibrius",
+    "definition": "Tel l'énigmatique Olibrius de légende : important de nom, vide de substance.",
+    "theme": "littéraire",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "énergumène",
+    "definition": "Agitation aussi bruyante que celle d'un tambour vide : fracas sans contenu.",
+    "theme": "littéraire",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "cuistre",
+    "definition": "Pédanterie si démesurée qu'elle étouffe le peu de savoir qu'elle prétend montrer.",
+    "theme": "littéraire",
+    "figure": "Hyperbole"
+  },
+  {
+    "text": "fat",
+    "definition": "Vanité aussi transparente que le verre, et aussi fragile sous le regard des autres.",
+    "theme": "littéraire",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "présomptueux",
+    "definition": "Se prend pour le soleil et n'est que le reflet pâle d'une ampoule grillée.",
+    "theme": "littéraire",
+    "figure": "Antithèse"
+  },
+  {
+    "text": "outrecuidant",
+    "definition": "Arrogance si démesurée qu'elle a depuis longtemps quitté les frontières du raisonnable.",
+    "theme": "littéraire",
+    "figure": "Hyperbole"
+  },
+  {
+    "text": "vaniteux",
+    "definition": "Miroir qu'il consulte sans jamais y voir autre chose que ce qu'il veut croire.",
+    "theme": "littéraire",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "orgueilleux",
+    "definition": "Orgueil aussi fragile qu'une tour de verre : impressionnant de loin, brisé par un souffle.",
+    "theme": "littéraire",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "rustre",
+    "definition": "Grossièreté si naturelle qu'elle en serait presque authentique, si l'authenticité était une vertu.",
+    "theme": "littéraire",
+    "figure": "Ironie"
+  },
+  {
+    "text": "malotru",
+    "definition": "Politesse et lui se sont croisés une fois, ne se sont pas reconnus, et ne se reverront plus.",
+    "theme": "littéraire",
+    "figure": "Personnification"
+  },
+  {
+    "text": "goujat",
+    "definition": "Galanterie absente comme la lumière dans un puits sans fond : le fond, c'est lui.",
+    "theme": "littéraire",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "vil",
+    "definition": "Bassesse morale si constante qu'elle en est devenue son seul horizon.",
+    "theme": "littéraire",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "faquin",
+    "definition": "Méprisable comme le carton doré qui imite l'or : l'apparence sans la substance.",
+    "theme": "littéraire",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "gredin",
+    "definition": "Rouerie si ancienne et si rodée qu'elle en est presque professionnelle.",
+    "theme": "littéraire",
+    "figure": "Hyperbole"
+  },
+  {
+    "text": "scélérat",
+    "definition": "Noirceur morale aussi profonde et constante que les abysses océaniques.",
+    "theme": "littéraire",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "obtus",
+    "definition": "Esprit aussi fermé qu'une forteresse médiévale dont on aurait muré toutes les portes.",
+    "theme": "familier",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "confus",
+    "definition": "Pensée aussi embrouillée que du fil de soie jeté dans une machine à laver.",
+    "theme": "familier",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "borné",
+    "definition": "Horizon intellectuel si étroit qu'il ne peut accueillir qu'une seule idée à la fois.",
+    "theme": "familier",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "limité",
+    "definition": "Capacités si modestes qu'elles en deviennent un chef-d'œuvre de minimalisme involontaire.",
+    "theme": "familier",
+    "figure": "Ironie"
+  },
+  {
+    "text": "pitoyable",
+    "definition": "Spectacle si affligeant qu'il émeut davantage qu'il ne révolte.",
+    "theme": "familier",
+    "figure": "Antithèse"
+  },
+  {
+    "text": "lamentable",
+    "definition": "État si déplorable que même la compassion hésite à s'y aventurer.",
+    "theme": "familier",
+    "figure": "Personnification"
+  },
+  {
+    "text": "triste",
+    "definition": "Grisaille humaine : présence aussi joyeuse qu'un dimanche soir de novembre.",
+    "theme": "familier",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "médiocre",
+    "definition": "Ni lumière ni ombre : existence au centre exact de l'insignifiance.",
+    "theme": "familier",
+    "figure": "Antithèse"
+  },
+  {
+    "text": "grotesque",
+    "definition": "Si risible que le ridicule lui-même détourne les yeux par pudeur.",
+    "theme": "familier",
+    "figure": "Personnification"
+  },
+  {
+    "text": "histrion",
+    "definition": "Comédien de bas étage dont toute l'existence n'est qu'une scène vide jouée devant un parterre absent.",
+    "theme": "littéraire",
+    "figure": "Métaphore"
+  },
+  {
+    "text": "creux",
+    "definition": "Aussi profond qu'un écho dans une chambre vide : tout y résonne, rien n'y reste.",
+    "theme": "familier",
+    "figure": "Comparaison"
+  },
+  {
+    "text": "vide",
+    "definition": "Comme l'espace entre deux étoiles : infini, silencieux, et totalement inhabité.",
+    "theme": "familier",
+    "figure": "Comparaison"
   }
 ]
