@@ -13,7 +13,7 @@
 <body>
 
   <noscript>
-    <p style="text-align:center;padding:2rem;font-family:monospace;">⚠️ Ce site nécessite JavaScript pour fonctionner correctement.</p>
+    <p style="text-align:center;padding:2rem;font-family:monospace;">⚠️ Ce site nécessite JavaScript pour fonctionner.</p>
   </noscript>
 
   <nav class="navbar">
@@ -22,28 +22,23 @@
       <span class="logo-text">INSULT ENGINE</span>
     </div>
     <div class="nav-links">
-      <button class="nav-btn active" data-view="generator" aria-label="Générateur">Générateur</button>
-      <button class="nav-btn" data-view="list" aria-label="Encyclopédie">Encyclopédie</button>
-      <button class="nav-btn" data-view="lootbox" aria-label="Lootbox">Lootbox</button>
-      <button class="nav-btn" data-view="quiz" aria-label="Mode quiz">Quiz</button>
-      <button class="nav-btn" data-view="stats" aria-label="Statistiques">Stats</button>
+      <button class="nav-btn active" data-view="generator">Générateur</button>
+      <button class="nav-btn" data-view="list">Encyclopédie</button>
+      <button class="nav-btn" data-view="lootbox">Lootbox</button>
+      <button class="nav-btn" data-view="quiz">Quiz</button>
+      <button class="nav-btn" data-view="stats">Stats</button>
     </div>
     <div class="nav-xp">
       <span class="xp-label">NIV.<span id="nav-level">0</span></span>
-      <div class="xp-bar-mini">
-        <div class="xp-fill-mini" id="xp-fill-mini"></div>
-      </div>
+      <div class="xp-bar-mini"><div class="xp-fill-mini" id="xp-fill-mini"></div></div>
     </div>
   </nav>
 
   <main role="main" class="views-container" id="app-root">
 
-    <!-- ══════════════════════
-         VIEW 1 : GENERATOR
-    ══════════════════════ -->
+    <!-- ══════════════ VIEW 1 : GENERATOR ══════════════ -->
     <section class="view active" id="view-generator">
 
-      <!-- DAILY INSULT BANNER -->
       <div class="daily-banner" id="daily-banner" style="display:none">
         <span class="daily-label">🌅 INSULTE DU JOUR</span>
         <span class="daily-text" id="daily-text"></span>
@@ -55,48 +50,35 @@
         <p class="gen-subtitle">Vocabulaire, humour lexical &amp; élégance verbale</p>
       </div>
 
-      <!-- MODE PROF toggle -->
       <div class="prof-toggle-row">
-        <button class="btn-prof" id="btn-prof-toggle" aria-pressed="false">
-          🎓 MODE PROF
-        </button>
+        <button class="btn-prof" id="btn-prof-toggle" aria-pressed="false">🎓 MODE PROF</button>
         <span class="prof-hint" id="prof-hint"></span>
       </div>
 
       <div class="gen-controls">
         <button class="btn-primary" id="btn-random" aria-label="Générer une insulte aléatoire">
-          <span class="btn-icon">🎲</span>
-          <span>INSULTE ALÉATOIRE</span>
+          <span class="btn-icon">🎲</span><span>INSULTE ALÉATOIRE</span>
         </button>
-        <button class="btn-secondary" id="btn-combo" aria-label="Créer un combo de deux insultes fusionnées">
-          <span class="btn-icon">⚡</span>
-          <span>COMBO SYSTEM</span>
+        <button class="btn-secondary" id="btn-combo" aria-label="Créer un combo">
+          <span class="btn-icon">⚡</span><span>COMBO SYSTEM</span>
         </button>
         <div class="situation-group">
-          <input
-            type="text"
-            id="situation-input"
-            maxlength="100"
-            autocomplete="off"
+          <input type="text" id="situation-input" maxlength="100" autocomplete="off"
             placeholder="Ex: quelqu'un râle sur les autres mais il ne fait rien"
-            aria-label="Décrivez une situation pour cibler une insulte"
-          />
-          <button class="btn-tertiary" id="btn-situation" aria-label="Générer une insulte selon la situation décrite">
-            <span class="btn-icon">🎯</span>
-            <span>CIBLER</span>
+            aria-label="Décrivez une situation" />
+          <button class="btn-tertiary" id="btn-situation" aria-label="Cibler une insulte">
+            <span class="btn-icon">🎯</span><span>CIBLER</span>
           </button>
         </div>
       </div>
 
-      <!-- RESULT CARD -->
-      <div class="result-wrapper" id="result-wrapper">
+      <div class="result-wrapper">
         <div class="result-card" id="result-card" data-loaded="false">
           <div class="result-type" id="result-type">INSULTE ALÉATOIRE</div>
           <div class="result-insult" id="result-insult">—</div>
           <div class="result-def" id="result-def">Cliquez sur un bouton pour révéler une insulte d'anthologie</div>
           <div class="result-theme theme-default" id="result-theme"></div>
 
-          <!-- ANALYSE LINGUISTIQUE -->
           <div class="result-analysis" id="result-analysis" style="display:none">
             <div class="analysis-score-row">
               <span class="analysis-score-label">📚 Niveau littéraire</span>
@@ -110,15 +92,12 @@
           </div>
 
           <div class="result-actions">
-            <button class="btn-save" id="btn-save-result" style="display:none"
-              aria-label="Ajouter cette insulte à la collection">💾 Collecter</button>
-            <button class="btn-replay" id="btn-replay" style="display:none"
-              aria-label="Rejouer la même insulte">🔁 Rejouer</button>
+            <button class="btn-save" id="btn-save-result" style="display:none">💾 Collecter</button>
+            <button class="btn-replay" id="btn-replay" style="display:none">🔁 Rejouer</button>
           </div>
         </div>
       </div>
 
-      <!-- COMBO DISPLAY -->
       <div class="combo-wrapper" id="combo-wrapper" style="display:none">
         <div class="combo-label">FUSION LEXICALE</div>
         <div class="combo-parts">
@@ -130,15 +109,12 @@
         <div class="combo-result-card">
           <div class="combo-result-text" id="combo-result-text"></div>
           <div class="combo-result-def" id="combo-result-def"></div>
-          <button class="btn-save" id="btn-save-combo"
-            aria-label="Ajouter ce combo à la collection">💾 Ajouter à la collection</button>
+          <button class="btn-save" id="btn-save-combo">💾 Ajouter à la collection</button>
         </div>
       </div>
     </section>
 
-    <!-- ══════════════════════
-         VIEW 2 : LIST
-    ══════════════════════ -->
+    <!-- ══════════════ VIEW 2 : LIST ══════════════ -->
     <section class="view" id="view-list">
       <div class="list-header">
         <h2 class="list-title">ENCYCLOPÉDIE</h2>
@@ -146,10 +122,9 @@
       </div>
       <div class="list-controls">
         <input type="text" id="search-input" placeholder="🔍 Rechercher une insulte..."
-          class="search-bar" autocomplete="off" maxlength="80"
-          aria-label="Rechercher dans l'encyclopédie" />
+          class="search-bar" autocomplete="off" maxlength="80" />
         <div class="filter-row">
-          <select id="theme-filter" class="filter-select" aria-label="Filtrer par thème">
+          <select id="theme-filter" class="filter-select">
             <option value="">Tous les thèmes</option>
             <option value="enfantines_absurdes">🧸 Enfantin</option>
             <option value="moyen_age">⚔️ Médiéval</option>
@@ -163,23 +138,24 @@
             <option value="sales">🧹 Sale</option>
             <option value="tech">💻 Tech</option>
             <option value="punchlines">⚡ Punchline</option>
+            <option value="familier">💬 Familier</option>
+            <option value="expression">🗣️ Expression</option>
+            <option value="comique">😄 Comique</option>
           </select>
-          <select id="level-filter" class="filter-select" aria-label="Filtrer par niveau littéraire">
+          <select id="level-filter" class="filter-select">
             <option value="">Tous les niveaux</option>
             <option value="tres_litteraire">✨ Très littéraire (81-100)</option>
             <option value="soutenu">🎭 Soutenu (61-80)</option>
             <option value="neutre">📖 Neutre (31-60)</option>
             <option value="familier">💬 Familier (0-30)</option>
           </select>
-          <button class="sort-btn" id="sort-btn" aria-label="Trier par ordre alphabétique">A→Z</button>
+          <button class="sort-btn" id="sort-btn">A→Z</button>
         </div>
       </div>
       <div class="list-grid" id="list-grid"></div>
     </section>
 
-    <!-- ══════════════════════
-         VIEW 3 : LOOTBOX
-    ══════════════════════ -->
+    <!-- ══════════════ VIEW 3 : LOOTBOX ══════════════ -->
     <section class="view" id="view-lootbox">
       <div class="lootbox-header">
         <h2 class="lootbox-title">LOOTBOX</h2>
@@ -215,12 +191,11 @@
         </div>
       </div>
       <div class="lootbox-actions">
-        <button class="btn-lootbox" id="btn-open-lootbox"
-          aria-label="Ouvrir une lootbox">OUVRIR LA LOOTBOX</button>
+        <button class="btn-lootbox" id="btn-open-lootbox">OUVRIR LA LOOTBOX</button>
         <p class="lootbox-hint" id="lootbox-hint">Cliquez pour révéler une insulte légendaire</p>
       </div>
       <div class="collection-section">
-        <button class="collection-toggle" id="collection-toggle" aria-expanded="true" aria-controls="collection-grid">
+        <button class="collection-toggle" id="collection-toggle" aria-expanded="true">
           <h3 class="collection-title">MA COLLECTION <span class="collection-count" id="collection-count">0</span></h3>
           <span class="toggle-arrow" id="toggle-arrow">▲</span>
         </button>
@@ -263,157 +238,159 @@
       </div>
     </section>
 
-    <!-- ══════════════════════
-         VIEW 4 : QUIZ
-    ══════════════════════ -->
+    <!-- ══════════════ VIEW 4 : QUIZ ══════════════ -->
     <section class="view" id="view-quiz">
       <div class="quiz-header">
         <h2 class="quiz-title">MODE QUIZ</h2>
-        <p class="quiz-subtitle">Analysez l'insulte — gagnez de l'XP éducatif</p>
+        <p class="quiz-subtitle">Testez vos connaissances — gagnez de l'XP</p>
         <div class="quiz-score-bar">
-          <span class="quiz-score-label">Score quiz</span>
+          <span class="quiz-score-label">Score</span>
           <span class="quiz-score-val" id="quiz-score-val">0</span>
           <span class="quiz-streak" id="quiz-streak"></span>
         </div>
       </div>
 
-      <!-- Insulte à analyser -->
-      <div class="quiz-card" id="quiz-card">
-        <div class="quiz-insult-text" id="quiz-insult-text">—</div>
-        <div class="quiz-insult-def" id="quiz-insult-def"></div>
+      <!-- ÉCRAN DE CHOIX DU MODE -->
+      <div id="quiz-start">
+        <p class="quiz-mode-title">Choisissez votre mode de quiz :</p>
+        <div class="quiz-mode-cards">
+          <button class="quiz-mode-card" id="btn-quiz-start-analyse">
+            <div class="quiz-mode-icon">🔬</div>
+            <div class="quiz-mode-name">ANALYSE LINGUISTIQUE</div>
+            <div class="quiz-mode-desc">Voir une insulte → deviner le registre, la figure de style et le thème</div>
+            <div class="quiz-mode-xp">+8 XP par bonne réponse</div>
+          </button>
+          <button class="quiz-mode-card" id="btn-quiz-start-def">
+            <div class="quiz-mode-icon">📖</div>
+            <div class="quiz-mode-name">TERME ↔ DÉFINITION</div>
+            <div class="quiz-mode-desc">Voir un terme → trouver sa définition, ou l'inverse. 4 choix possibles.</div>
+            <div class="quiz-mode-xp">+8 XP si bonne réponse</div>
+          </button>
+        </div>
       </div>
 
-      <!-- Questions -->
-      <div class="quiz-questions" id="quiz-questions" style="display:none">
+      <!-- BLOC MODE ANALYSE -->
+      <div id="quiz-bloc-analyse" style="display:none">
+        <div class="quiz-card">
+          <div class="quiz-mode-badge">🔬 ANALYSE LINGUISTIQUE</div>
+          <div class="quiz-insult-text" id="quiz-insult-text">—</div>
+          <div class="quiz-insult-def" id="quiz-insult-def"></div>
+        </div>
 
-        <div class="quiz-question-block">
-          <div class="quiz-question-label">1. Quel est le registre de cette insulte ?</div>
-          <div class="quiz-options" id="quiz-options-registre">
-            <button class="quiz-option" data-q="registre" data-v="familier">💬 Familier</button>
-            <button class="quiz-option" data-q="registre" data-v="neutre">📖 Neutre</button>
-            <button class="quiz-option" data-q="registre" data-v="soutenu">🎭 Soutenu</button>
-            <button class="quiz-option" data-q="registre" data-v="tres_litteraire">✨ Très littéraire</button>
+        <div class="quiz-questions">
+          <div class="quiz-question-block">
+            <div class="quiz-question-label">1. Quel est le registre de cette insulte ?</div>
+            <div class="quiz-options" id="quiz-options-registre">
+              <button class="quiz-option" data-q="registre" data-v="familier">💬 Familier</button>
+              <button class="quiz-option" data-q="registre" data-v="neutre">📖 Neutre</button>
+              <button class="quiz-option" data-q="registre" data-v="soutenu">🎭 Soutenu</button>
+              <button class="quiz-option" data-q="registre" data-v="tres_litteraire">✨ Très littéraire</button>
+            </div>
+          </div>
+
+          <div class="quiz-question-block">
+            <div class="quiz-question-label">2. Quelle figure de style reconnaissez-vous ?</div>
+            <div class="quiz-options" id="quiz-options-figure">
+              <button class="quiz-option" data-q="figure" data-v="Comparaison">Comparaison</button>
+              <button class="quiz-option" data-q="figure" data-v="Métaphore">Métaphore</button>
+              <button class="quiz-option" data-q="figure" data-v="Hyperbole">Hyperbole</button>
+              <button class="quiz-option" data-q="figure" data-v="Ironie">Ironie</button>
+              <button class="quiz-option" data-q="figure" data-v="Personnification">Personnification</button>
+              <button class="quiz-option" data-q="figure" data-v="Antithèse">Antithèse</button>
+              <button class="quiz-option" data-q="figure" data-v="Aucune">Aucune figure</button>
+            </div>
+          </div>
+
+          <div class="quiz-question-block">
+            <div class="quiz-question-label">3. Quel est le thème de cette insulte ?</div>
+            <div class="quiz-options" id="quiz-options-theme">
+              <button class="quiz-option" data-q="theme" data-v="enfantines_absurdes">🧸 Enfantin</button>
+              <button class="quiz-option" data-q="theme" data-v="moyen_age">⚔️ Médiéval</button>
+              <button class="quiz-option" data-q="theme" data-v="renaissance_xviie">🎭 Renaissance</button>
+              <button class="quiz-option" data-q="theme" data-v="xixe_litterature">📚 Littéraire</button>
+              <button class="quiz-option" data-q="theme" data-v="intelligence">🧠 Intelligence</button>
+              <button class="quiz-option" data-q="theme" data-v="inutiles_faibles">😴 Inutile</button>
+              <button class="quiz-option" data-q="theme" data-v="hypocrisie">🐍 Hypocrisie</button>
+              <button class="quiz-option" data-q="theme" data-v="relous">😤 Relou</button>
+              <button class="quiz-option" data-q="theme" data-v="ridicule">🎭 Ridicule</button>
+              <button class="quiz-option" data-q="theme" data-v="tech">💻 Tech</button>
+              <button class="quiz-option" data-q="theme" data-v="punchlines">⚡ Punchline</button>
+              <button class="quiz-option" data-q="theme" data-v="familier">💬 Familier</button>
+              <button class="quiz-option" data-q="theme" data-v="expression">🗣️ Expression</button>
+              <button class="quiz-option" data-q="theme" data-v="comique">😄 Comique</button>
+            </div>
           </div>
         </div>
 
-        <div class="quiz-question-block">
-          <div class="quiz-question-label">2. Quelle figure de style reconnaissez-vous ?</div>
-          <div class="quiz-options" id="quiz-options-figure">
-            <button class="quiz-option" data-q="figure" data-v="Hyperbole">Hyperbole</button>
-            <button class="quiz-option" data-q="figure" data-v="Métaphore">Métaphore</button>
-            <button class="quiz-option" data-q="figure" data-v="Ironie">Ironie</button>
-            <button class="quiz-option" data-q="figure" data-v="Personnification">Personnification</button>
-            <button class="quiz-option" data-q="figure" data-v="Aucune">Aucune figure</button>
-          </div>
-        </div>
-
-        <div class="quiz-question-block">
-          <div class="quiz-question-label">3. Quel est le thème de cette insulte ?</div>
-          <div class="quiz-options" id="quiz-options-theme">
-            <button class="quiz-option" data-q="theme" data-v="enfantines_absurdes">🧸 Enfantin</button>
-            <button class="quiz-option" data-q="theme" data-v="moyen_age">⚔️ Médiéval</button>
-            <button class="quiz-option" data-q="theme" data-v="renaissance_xviie">🎭 Renaissance</button>
-            <button class="quiz-option" data-q="theme" data-v="xixe_litterature">📚 Littéraire</button>
-            <button class="quiz-option" data-q="theme" data-v="intelligence">🧠 Intelligence</button>
-            <button class="quiz-option" data-q="theme" data-v="inutiles_faibles">😴 Inutile</button>
-            <button class="quiz-option" data-q="theme" data-v="hypocrisie">🐍 Hypocrisie</button>
-            <button class="quiz-option" data-q="theme" data-v="relous">😤 Relou</button>
-            <button class="quiz-option" data-q="theme" data-v="ridicule">🎭 Ridicule</button>
-            <button class="quiz-option" data-q="theme" data-v="tech">💻 Tech</button>
-            <button class="quiz-option" data-q="theme" data-v="punchlines">⚡ Punchline</button>
-          </div>
-        </div>
-
-        <button class="btn-primary" id="btn-quiz-validate" style="display:none"
-          aria-label="Valider mes réponses">✅ VALIDER</button>
+        <button class="btn-primary quiz-validate-btn" id="btn-quiz-validate-analyse" style="display:none">
+          ✅ VALIDER MES RÉPONSES
+        </button>
       </div>
 
-      <!-- Correction -->
+      <!-- BLOC MODE DÉFINITION -->
+      <div id="quiz-bloc-def" style="display:none">
+        <div class="quiz-card">
+          <div class="quiz-mode-badge" id="quiz-def-badge">📖 TERME → DÉFINITION</div>
+          <div class="quiz-insult-text" id="quiz-def-term">—</div>
+        </div>
+
+        <div class="quiz-question-block">
+          <div class="quiz-question-label" id="quiz-def-question">Quelle est la définition correcte ?</div>
+          <div class="quiz-def-options" id="quiz-def-options"></div>
+        </div>
+
+        <button class="btn-primary quiz-validate-btn" id="btn-quiz-validate-def" style="display:none">
+          ✅ VALIDER MA RÉPONSE
+        </button>
+      </div>
+
+      <!-- CORRECTION -->
       <div class="quiz-correction" id="quiz-correction" style="display:none">
         <div class="correction-title">CORRECTION</div>
         <div class="correction-body" id="correction-body"></div>
         <div class="correction-xp" id="correction-xp"></div>
-        <button class="btn-primary" id="btn-quiz-next">INSULTE SUIVANTE →</button>
-      </div>
-
-      <div class="quiz-start" id="quiz-start">
-        <button class="btn-primary" id="btn-quiz-start">
-          <span class="btn-icon">🎓</span>
-          <span>COMMENCER LE QUIZ</span>
-        </button>
-        <p class="quiz-start-hint">Chaque bonne réponse rapporte de l'XP bonus</p>
+        <div class="quiz-next-row">
+          <button class="btn-primary" id="btn-quiz-next">QUESTION SUIVANTE →</button>
+          <button class="btn-secondary" id="btn-quiz-change-mode">Changer de mode</button>
+        </div>
       </div>
     </section>
 
-    <!-- ══════════════════════
-         VIEW 5 : STATS
-    ══════════════════════ -->
+    <!-- ══════════════ VIEW 5 : STATS ══════════════ -->
     <section class="view" id="view-stats">
       <div class="stats-header">
         <h2 class="stats-title">STATISTIQUES</h2>
         <p class="stats-subtitle">Votre profil linguistique</p>
       </div>
-
-      <!-- Niveau & titre -->
       <div class="stats-profile">
         <div class="stats-level-big" id="stats-level-big">0</div>
         <div class="stats-title-badge" id="stats-title-badge">Novice</div>
         <div class="stats-xp-total">Total : <span id="stats-xp-total">0</span> XP</div>
       </div>
-
-      <!-- Chiffres clés -->
       <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-number" id="stat-generated">0</div>
-          <div class="stat-label">Insultes générées</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number" id="stat-combos">0</div>
-          <div class="stat-label">Combos créés</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number" id="stat-lootboxes">0</div>
-          <div class="stat-label">Lootboxes ouvertes</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number" id="stat-collection">0</div>
-          <div class="stat-label">Collection</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number" id="stat-quiz-score">0</div>
-          <div class="stat-label">Score quiz total</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number" id="stat-quiz-streak">0</div>
-          <div class="stat-label">Meilleure série quiz</div>
-        </div>
+        <div class="stat-card"><div class="stat-number" id="stat-generated">0</div><div class="stat-label">Insultes générées</div></div>
+        <div class="stat-card"><div class="stat-number" id="stat-combos">0</div><div class="stat-label">Combos créés</div></div>
+        <div class="stat-card"><div class="stat-number" id="stat-lootboxes">0</div><div class="stat-label">Lootboxes ouvertes</div></div>
+        <div class="stat-card"><div class="stat-number" id="stat-collection">0</div><div class="stat-label">Collection</div></div>
+        <div class="stat-card"><div class="stat-number" id="stat-quiz-score">0</div><div class="stat-label">Score quiz total</div></div>
+        <div class="stat-card"><div class="stat-number" id="stat-quiz-streak">0</div><div class="stat-label">Meilleure série</div></div>
       </div>
-
-      <!-- Niveau moyen littéraire -->
       <div class="stats-section">
         <h3 class="stats-section-title">NIVEAU LITTÉRAIRE MOYEN</h3>
         <div class="literary-avg-display">
           <div class="literary-avg-number" id="literary-avg-number">—</div>
           <div class="literary-avg-label" id="literary-avg-label"></div>
-          <div class="literary-avg-bar">
-            <div class="literary-avg-fill" id="literary-avg-fill"></div>
-          </div>
+          <div class="literary-avg-bar"><div class="literary-avg-fill" id="literary-avg-fill"></div></div>
         </div>
       </div>
-
-      <!-- Répartition registres -->
       <div class="stats-section">
-        <h3 class="stats-section-title">RÉPARTITION DES REGISTRES GÉNÉRÉS</h3>
+        <h3 class="stats-section-title">RÉPARTITION DES REGISTRES</h3>
         <div class="registre-bars" id="registre-bars"></div>
       </div>
-
-      <!-- Figures détectées -->
       <div class="stats-section">
         <h3 class="stats-section-title">FIGURES DE STYLE DÉTECTÉES</h3>
         <div class="figures-bars" id="figures-bars"></div>
       </div>
-
-      <!-- Thèmes favoris -->
       <div class="stats-section">
         <h3 class="stats-section-title">THÈMES LES PLUS GÉNÉRÉS</h3>
         <div class="themes-bars" id="themes-bars"></div>
